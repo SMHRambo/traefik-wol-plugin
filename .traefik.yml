@@ -1,10 +1,10 @@
-displayName: Demo Plugin
+displayName: WOL Plugin
 type: middleware
 iconPath: .assets/icon.png
 
-import: github.com/traefik/plugindemo
+import: github.com/traefik/plugin-wol
 
-summary: '[Demo] Add Request Header'
+summary: 'Generate WOL packages on requests with a specific url'
 
 testData:
   Headers:
