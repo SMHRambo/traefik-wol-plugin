@@ -42,6 +42,10 @@ func New(ctx context.Context, next http.Handler, config *Config, name string) (h
 }
 
 func (a *wol) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
+
+	fmt.Printf("%+v\n", rw)
+	fmt.Printf("%+v\n", req)
+
 	err := wol.send(a.macAddress)
 	if err != nil {
 		return
