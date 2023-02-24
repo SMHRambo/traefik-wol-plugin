@@ -1,3 +1,3 @@
 module github.com/SMHRambo/traefik-wol-plugin
 
-go 1.19
+go 1.17

@@ -1,4 +1,4 @@
-package wol_test
+package traefik_wol_plugin
 
 import (
 	"context"

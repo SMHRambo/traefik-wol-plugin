@@ -1,4 +1,4 @@
-package wol
+package traefik_wol_plugin
 
 import (
 	"bytes"
