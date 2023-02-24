@@ -5,8 +5,6 @@ import (
 	"context"
 	"fmt"
 	"net/http"
-
-	"wol"
 )
 
 // Config the plugin configuration.
