@@ -1,4 +1,4 @@
-package plugin_wol
+package wol
 
 import (
 	"bytes"

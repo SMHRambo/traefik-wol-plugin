@@ -1,4 +1,4 @@
-package plugindemo_test
+package wol_test
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/traefik/plugindemo"
+	"github.com/SMHRambo/traefik-wol-plugin"
 )
 
 func TestDemo(t *testing.T) {

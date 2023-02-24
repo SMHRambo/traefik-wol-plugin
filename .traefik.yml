@@ -1,12 +1,5 @@
-displayName: WOL Plugin
+displayName: WOL
 type: middleware
+import: github.com/SMHRambo/traefik-wol-plugin
+summary: 'Generate WOL packages on requests'
 iconPath: .assets/icon.png
-
-import: github.com/traefik/plugin-wol
-
-summary: 'Generate WOL packages on requests with a specific url'
-
-testData:
-  Headers:
-    X-Demo: test
-    X-URL: '{{URL}}'
